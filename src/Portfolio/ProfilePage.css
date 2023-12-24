@@ -1,0 +1,57 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 6%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar #navbar_list{
+    flex: 1;
+    list-style: none;
+    color: #676767;
+}
+
+#navbar_list li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-family: var(--font-poppins);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbar_list li:hover{
+    color: black;
+}
+
+#about_01,
+#skills_02,
+#work_03,
+#contact_04{
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: var(--font-mono);
+}
+
+#nav_resume_button{
+    height: 34px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#nav_resume_button:hover{
+    background-color: white;
+    color: black;
+}
+
