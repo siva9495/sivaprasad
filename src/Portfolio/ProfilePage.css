@@ -55,3 +55,20 @@
     color: black;
 }
 
+.side_bar_social_icons{
+    position: fixed; 
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side_bar_social_icons #side_bar_social_icons_line{
+    width: 1.5px;
+    height: 150px;
+    background-color: white;
+    margin-top: auto;
+}
+
