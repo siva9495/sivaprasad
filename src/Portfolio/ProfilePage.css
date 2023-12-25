@@ -59,16 +59,61 @@
     position: fixed; 
     width: 150px;
     height: 100vh;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.side_bar_social_icons #side_bar_social_icons_line{
-    width: 1.5px;
-    height: 150px;
-    background-color: white;
+#inner_side_bar_social_icons{
+    position: relative;
+    width: 50px;
+    height: 350px;
+    /* background-color: white; */
     margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#vertical_line_social_icons{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 150px;
+    background-color: black;
+}
+
+#social_icons_01{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 150px);
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#social_icons{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: flex-end; 
+}
+
+#social_icons a{
+    margin-bottom: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#social_icons a:hover{
+    transform: translate(0, -3px);
 }
 
