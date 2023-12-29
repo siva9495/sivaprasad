@@ -11,6 +11,6 @@
     background: black;
 }
 :root {
-    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     --font-poppins: 'Poppins', sans-serif;
 }
