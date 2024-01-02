@@ -10,7 +10,14 @@
     min-height: 100vh;
     background: black;
 }
+
+@font-face {
+    font-family: Brusher;
+    src: url(../src//Fonts/Brusher.ttf) format('truetype');;
+}
+
 :root {
-    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
     --font-poppins: 'Poppins', sans-serif;
+    --font-brusher: 'Brusher', sans-serif;
 }

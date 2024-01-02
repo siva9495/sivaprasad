@@ -1,19 +1,10 @@
 import React from 'react'
-import './ProfilePage.css'
-import About from './about'
-import Skills from './Skills'
-import Navbar from './navbar'
-import Headroom from 'react-headroom'
+import './SideBarSocialLinks.css'
 
-export const ProfilePage = () => {
+export const SideBarSocialLinks = () => {
   return (
-    <div className='profile_page_portfolio'>
-      <Headroom>
-        <Navbar />
-      </Headroom>
-      <div className='profile_page_container'>
-        <div className='side_bar_social_icons'>
-          <div id='inner_side_bar_social_icons'>
+    <div className='side_bar_social_icons'>
+        <div id='inner_side_bar_social_icons'>
             <div id='social_icons_01'>
               <ul id='social_icons'>
                 <a  target='_blank' className=''>
@@ -31,16 +22,8 @@ export const ProfilePage = () => {
               </ul>
             </div>
             <div id='vertical_line_social_icons'></div>
-          
-        </div>
-        </div>
-        <div className='section_all'>
-          <About />
-          <Skills />
-        </div>
-        <div className='side_bar_email'></div>
-      </div>
+          </div>
     </div>
   )
 }
-export default ProfilePage;
+export default SideBarSocialLinks;

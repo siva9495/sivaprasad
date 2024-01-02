@@ -1,9 +1,12 @@
 import ProfilePage from './Portfolio/ProfilePage'
+import NewPortfolio from './Portfolio/NewPortfolio'
+import SideBarEmail from './Portfolio/SideBarEmail'
 
 function App() {
   return (
     <div className="App">
-      <ProfilePage/>
+      <NewPortfolio/>
+      {/* <SideBarEmail/> */}
     </div>
   );
 }

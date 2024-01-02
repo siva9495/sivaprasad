@@ -1,0 +1,48 @@
+.siva {
+    display: flex;
+  }
+  
+  .sidebar-left {
+    position: fixed;
+    left: 0;
+    /* top: 50px; Adjust based on your Navbar height */
+  }
+
+  .Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .Navbar-hidden {
+    top: -100px; /* Adjust based on your navbar height */
+  }
+  
+  
+
+  .sidebar-right {
+    position: fixed;
+    right: 0;
+    /* top: 50px; Adjust based on your Navbar height */
+  }
+  
+  .main-content {
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .section_all_scroll {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sectionProfile_portfolio,
+  .sectionAbout_portfolio {
+    width: 100%;
+  }
+  
