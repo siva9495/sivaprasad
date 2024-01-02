@@ -4,7 +4,7 @@
     /* background-color: green; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     overflow: hidden;
     position: relative;
@@ -16,13 +16,15 @@
     /* background-color: red; */
     font-family: var(--font-mono);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    margin-top: -90px;
+    /* margin-top: -90px; */
+    margin-top: 7%;
   }
 
   .aboutText{
-    color: rgb(238, 238, 238);
+    /* color: rgb(238, 238, 238); */
+    color: black;
     font-size: 190px;
     font-weight: 550;
     letter-spacing: 0.2rem;
@@ -33,5 +35,6 @@
     font-family: var(--font-mono);
     font-size: 25px;
     margin-left: 20%;
+    margin-top: 34%;
     visibility: visible;
   }
