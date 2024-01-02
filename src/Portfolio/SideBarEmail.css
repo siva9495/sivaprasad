@@ -1,12 +1,10 @@
 .side_bar_email {
-    position: fixed;
     width: 150px;
     height: 100vh;
     /* background-color: black; */
     display: flex;
     align-items: center;
     flex-direction: column;
-    right: 0;
 }
 
 
