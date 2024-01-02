@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sivaprasad/static/css/main.d8cc61a2.css",
+    "main.js": "/sivaprasad/static/js/main.64d2a86a.js",
+    "static/media/Brusher.ttf": "/sivaprasad/static/media/Brusher.df09075cd8c853e96f3d.ttf",
+    "index.html": "/sivaprasad/index.html",
+    "main.d8cc61a2.css.map": "/sivaprasad/static/css/main.d8cc61a2.css.map",
+    "main.64d2a86a.js.map": "/sivaprasad/static/js/main.64d2a86a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8cc61a2.css",
+    "static/js/main.64d2a86a.js"
+  ]
+}
