@@ -5,7 +5,7 @@ import SideBarSocialLinks from './SideBarSocialLinks';
 import SideBarEmail from './SideBarEmail';
 import SectionProfile from './sectionProfile';
 import SectionAbout from './sectionAbout';
-import SectionWorks from './sectionWorks'
+import SectionWorks from './sectionWorks';
 
 export const NewPortfolio = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
