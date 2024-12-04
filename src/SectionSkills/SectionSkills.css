@@ -38,10 +38,11 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: end;
     background-color: green;
 }
 
-.ss_skills_text{
+.ss_skills_text_span{
     font-family: var(--font-mono);
     font-size: 190px;
     font-weight: 550;
