@@ -9,7 +9,7 @@ const SectionSkills = () => {
                 <span className='ss_personal_text_span'>PERSONAL</span>
             </div>
             <div className='ss_personalskills_body'></div>
-            <div className='ss_skills_text'></div>
+            <div className='ss_skills_text'>SKILLS</div>
         </div>
     </div>
   )

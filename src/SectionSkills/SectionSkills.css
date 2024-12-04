@@ -1,0 +1,49 @@
+.section_skills_container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section_skills_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ss_personal_text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.ss_personal_text_span{
+    font-family: var(--font-mono);
+    font-size: 190px;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+}
+
+.ss_personalskills_body{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+}
+
+.ss_skills_text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+
+.ss_skills_text{
+    font-family: var(--font-mono);
+    font-size: 190px;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+}
