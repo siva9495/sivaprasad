@@ -1,0 +1,52 @@
+.section_contactme_container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section_contactme_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scm_contact_text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.scm_contact_text_span{
+    color: black;
+    font-family: var(--font-mono);
+    font-size: 190px;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+}
+
+.scm_contactme_body{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.scm_me_text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: green; */
+}
+
+.scm_me_text_span{
+    color: black;
+    font-family: var(--font-mono);
+    font-size: 190px;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+}

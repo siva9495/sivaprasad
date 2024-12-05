@@ -8,7 +8,7 @@ export const sectionProfile = () => {
         <span className='name_developer'>Siva Prasad</span>
       </div>
       <div className='section_profile_work'>
-        <span className='develope_work'>Front-End Developer</span>
+        <span className='develope_work'>Full-Stack Developer</span>
       </div>
     </div>
   )
