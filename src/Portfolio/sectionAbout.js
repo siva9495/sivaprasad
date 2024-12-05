@@ -27,7 +27,7 @@ export const SectionAbout = () => {
       const textElement = textRef.current;
       if (textElement) {
         const maxMove = 100; // Adjust this value for desired maximum movement
-        const move = ((scrollPercentage * maxMove) / 100) - 50;
+        const move = ((scrollPercentage * maxMove) / 100) - 10;
         textElement.style.transform = `translateX(${move}%)`;
   
         const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change
@@ -38,8 +38,8 @@ export const SectionAbout = () => {
     useEffect(() => {
         const textElement = textRefRev.current;
         if (textElement) {
-          const maxMove = 100; // Adjust this value for desired maximum movement
-          const move = ((scrollPercentage * maxMove) / 100) - 50;
+          const maxMove = 200; // Adjust this value for desired maximum movement
+          const move = ((scrollPercentage * maxMove) / 100) - 10;
           textElement.style.transform = `translateX(${-move}%)`;
     
           const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change

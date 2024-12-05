@@ -17,7 +17,7 @@
 .about_text {
   height: 20%;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   font-family: var(--font-mono);
   display: flex;
   justify-content: start;
@@ -34,14 +34,16 @@
 .about_description{
   width: 100%;
   height: 60%;
-  background-color: blue;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.about_description_text{
+.aboutdescription{
+  width: 70%;
   font-family: var(--font-mono);
   font-size: 25px;
-  margin-left: 20%;
-  margin-top: 34%;
 }
 
 .me_text{
@@ -50,7 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .meText{
