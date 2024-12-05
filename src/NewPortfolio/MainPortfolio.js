@@ -4,6 +4,7 @@ import SectionProfile from '../Portfolio/sectionProfile';
 import SectionAbout from '../Portfolio/sectionAbout';
 import SectionWorks from '../Portfolio/sectionWorks';
 import SectionSkills from '../SectionSkills/SectionSkills';
+import SectionContactMe from '../SectionContactMe/SectionContactMe';
 
 const MainPortfolio = () => {
   return (
@@ -12,6 +13,7 @@ const MainPortfolio = () => {
         <SectionAbout/>
         <SectionSkills/>
         <SectionWorks/>
+        <SectionContactMe/>
     </div>
   )
 }
