@@ -1,5 +1,6 @@
 import React, {useRef, useEffect, useState} from 'react'
 import './SectionContactMe.css'
+import { IoLogoGithub } from "react-icons/io";
 
 const SectionContactMe = () => {
 
@@ -55,7 +56,8 @@ const SectionContactMe = () => {
                 <span className='scm_contact_text_span' ref={textRef}>CONTACT</span>
             </div>
             <div className='scm_contactme_body'>
-              <div className='scm_contactme_content'>
+              <div className='scm_contactme_body_content'>
+                <IoLogoGithub />
                 
               </div>
             </div>
