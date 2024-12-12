@@ -58,11 +58,11 @@ const SectionContactMe = () => {
             </div>
             <div className='scm_contactme_body'>
               <div className='scm_contactme_body_content'>
-                <IoLogoGithub />
-                <IoMdMail />
-                <FaLinkedinIn />
-                <IoLogoInstagram />
-                <FaXTwitter />
+                <IoLogoGithub className='scm_logo_github'/>
+                <IoMdMail className='scm_logo_mail'/>
+                <FaLinkedinIn className='scm_logo_linkedin'/>
+                <IoLogoInstagram className='scm_logo_instagram'/>
+                <FaXTwitter className='scm_logo_twitter'/>
               </div>
             </div>
             <div className='scm_me_text'>

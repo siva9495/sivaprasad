@@ -31,7 +31,7 @@
     height: 60%;
     width: 100%;
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .scm_contactme_body_content{
@@ -39,7 +39,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: green;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    /* background-color: green; */
 }
 
 .scm_me_text{
