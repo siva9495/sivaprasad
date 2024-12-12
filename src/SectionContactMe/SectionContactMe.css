@@ -34,6 +34,14 @@
     background-color: blue;
 }
 
+.scm_contactme_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+
 .scm_me_text{
     height: 20%;
     width: 100%;
