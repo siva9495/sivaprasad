@@ -69,4 +69,13 @@
     font-size: 90px;
     margin-right: 100px;
     cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.scm_logo_github:hover,
+.scm_logo_mail:hover,
+.scm_logo_linkedin:hover,
+.scm_logo_instagram:hover,
+.scm_logo_twitter:hover{
+    transform: translate(0, -6px);
 }
