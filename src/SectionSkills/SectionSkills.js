@@ -52,11 +52,11 @@ const SectionSkills = () => {
     <div className='section_skills_container'>
         <div className='section_skills_content'>
             <div className='ss_personal_text'>
-                <span className='ss_personal_text_span' ref={textRef}>PERSONAL</span>
+                <span className='ss_personal_text_span' ref={textRefRev}>TECHNICAL</span>
             </div>
             <div className='ss_personalskills_body'></div>
             <div className='ss_skills_text'>
-                <span className='ss_skills_text_span' ref={textRefRev}>SKILLS</span>
+                <span className='ss_skills_text_span' ref={textRef}>SKILLS</span>
             </div>
         </div>
     </div>
