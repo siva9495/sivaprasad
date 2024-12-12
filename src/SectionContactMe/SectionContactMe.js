@@ -58,11 +58,21 @@ const SectionContactMe = () => {
             </div>
             <div className='scm_contactme_body'>
               <div className='scm_contactme_body_content'>
-                <IoLogoGithub className='scm_logo_github'/>
-                <IoMdMail className='scm_logo_mail'/>
-                <FaLinkedinIn className='scm_logo_linkedin'/>
-                <IoLogoInstagram className='scm_logo_instagram'/>
-                <FaXTwitter className='scm_logo_twitter'/>
+                <a href="https://github.com/siva9495" target="_blank" rel="noopener noreferrer">
+                  <IoLogoGithub className="scm_logo_github" />
+                </a>
+                <a href="mailto:sivaprasad.ksp07@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <IoMdMail className="scm_logo_mail" />
+                </a>
+                <a href="https://www.linkedin.com/in/kadiyala-siva-prasad/" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedinIn className='scm_logo_linkedin'/>
+                </a>
+                <a href="https://www.instagram.com/_siva_prasad_07/" target="_blank" rel="noopener noreferrer">
+                  <IoLogoInstagram className='scm_logo_instagram'/>
+                </a>
+                <a href="https://x.com/sivaprasad_92" target="_blank" rel="noopener noreferrer">
+                  <FaXTwitter className='scm_logo_twitter'/>
+                </a>
               </div>
             </div>
             <div className='scm_me_text'>

@@ -66,6 +66,7 @@
 .scm_logo_linkedin,
 .scm_logo_instagram,
 .scm_logo_twitter{
+    color: black;
     font-size: 90px;
     margin-right: 100px;
     cursor: pointer;
