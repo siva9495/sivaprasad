@@ -1,6 +1,7 @@
 import React, {useRef, useEffect, useState} from 'react'
 import './SectionContactMe.css'
-import { IoLogoGithub } from "react-icons/io";
+import { IoLogoGithub, IoMdMail, IoLogoInstagram } from "react-icons/io";
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
 const SectionContactMe = () => {
 
@@ -58,7 +59,10 @@ const SectionContactMe = () => {
             <div className='scm_contactme_body'>
               <div className='scm_contactme_body_content'>
                 <IoLogoGithub />
-                
+                <IoMdMail />
+                <FaLinkedinIn />
+                <IoLogoInstagram />
+                <FaXTwitter />
               </div>
             </div>
             <div className='scm_me_text'>
