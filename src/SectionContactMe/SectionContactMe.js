@@ -54,7 +54,11 @@ const SectionContactMe = () => {
             <div className='scm_contact_text'>
                 <span className='scm_contact_text_span' ref={textRef}>CONTACT</span>
             </div>
-            <div className='scm_contactme_body'></div>
+            <div className='scm_contactme_body'>
+              <div className='scm_contactme_content'>
+                
+              </div>
+            </div>
             <div className='scm_me_text'>
                 <span className='scm_me_text_span' ref={textRefRev}>ME</span>
             </div>
