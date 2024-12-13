@@ -1,24 +1,46 @@
-.sectionProfile{
+.sectionProfile {
     height: 100vh;
     min-width: 1000px;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.section_profile_name{
+  }
+  
+  .hidden_wall {
     /* background-color: red; */
-}
-.name_developer{
+    height: 130px; /* Match the height of the name_developer font size */
+    overflow: hidden; /* Hide the content outside this area */
+  }
+  
+  .section_profile_name {
+    transform: translateY(100%); /* Start below the container */
+    animation: slideUp 2s ease-in-out forwards; /* Slide up animation */
+  }
+  
+  .name_developer {
     font-family: var(--font-brusher);
     font-size: 120px;
     font-weight: 600;
-}
-
-.develope_work{
+  }
+  
+  .section_profile_work {
+    margin-top: 20px;
+  }
+  
+  .develope_work {
     font-family: var(--font-mono);
     font-size: 35px;
     font-weight: 520;
-}
+  }
+  
+  /* Keyframes for sliding up animation */
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%); /* Start below */
+    }
+    to {
+      transform: translateY(0); /* End at original position */
+    }
+  }
+  
