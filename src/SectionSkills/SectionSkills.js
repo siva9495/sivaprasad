@@ -28,7 +28,7 @@ const SectionSkills = () => {
       const textElement = textRef.current;
       if (textElement) {
         const maxMove = 100; // Adjust this value for desired maximum movement
-        const move = ((scrollPercentage * maxMove) / 100) - 50;
+        const move = ((scrollPercentage * maxMove) / 100) - 40;
         textElement.style.transform = `translateX(${move}%)`;
   
         const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change
@@ -40,7 +40,7 @@ const SectionSkills = () => {
         const textElement = textRefRev.current;
         if (textElement) {
           const maxMove = 100; // Adjust this value for desired maximum movement
-          const move = ((scrollPercentage * maxMove) / 100) - 50;
+          const move = ((scrollPercentage * maxMove) / 100) - 35;
           textElement.style.transform = `translateX(${-move}%)`;
     
           const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change
