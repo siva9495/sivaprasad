@@ -4,6 +4,7 @@ import './sectionProfile.css';
 export const SectionProfile = () => {
   return (
     <div className="sectionProfile">
+      {/* Hidden wall for "Siva Prasad" */}
       <div className="hidden_wall">
         <div className="section_profile_name">
           {"Siva Prasad".split("").map((char, index) => (
@@ -17,11 +18,10 @@ export const SectionProfile = () => {
           ))}
         </div>
       </div>
-      <div className="hidden_wall">
-        <div
-          className="section_profile_work develope_work"
-          style={{ animationDelay: `2s` }} /* Delay to start after "Siva Prasad" */
-        >
+
+      {/* Hidden wall for "Full-Stack Developer" */}
+      <div className="hidden_wall_work">
+        <div className="section_profile_work">
           Full-Stack Developer
         </div>
       </div>

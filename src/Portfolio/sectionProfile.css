@@ -1,55 +1,66 @@
 .sectionProfile {
-    height: 100vh;
-    min-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .hidden_wall {
-    height: 130px; /* Match the height of the text */
-    overflow: hidden; /* Hide the content outside this area */
-  }
-  
-  .section_profile_name {
-    display: flex;
-  }
-  
-  .name_letter {
-    font-family: var(--font-brusher);
-    font-size: 120px;
-    font-weight: 600;
-    display: inline-block;
-    transform: translateY(100%); /* Start below the container */
-    animation: slideUp 0.8s ease-in-out forwards; /* Slide up animation */
-  }
-  
-  .name_letter.space {
-    width: 40px; /* Add spacing between words */
-  }
-  
-  /* Keyframes for sliding up animation */
-  @keyframes slideUp {
-    from {
+  height: 100vh;
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden_wall {
+  height: 130px; /* Match the height of the text */
+  overflow: hidden; /* Ensures anything outside this area is hidden */
+}
+
+.section_profile_name {
+  display: flex;
+}
+
+.name_letter {
+  font-family: var(--font-brusher);
+  font-size: 120px;
+  font-weight: 600;
+  display: inline-block;
+  transform: translateY(100%); /* Start below the container */
+  animation: slideUp 0.8s ease-in-out forwards; /* Slide up animation */
+}
+
+.name_letter.space {
+  width: 40px; /* Add spacing between words */
+}
+
+/* Keyframes for sliding up animation */
+@keyframes slideUp {
+  from {
       transform: translateY(100%); /* Start below */
-    }
-    to {
+  }
+  to {
       transform: translateY(0); /* End at original position */
-    }
   }
-  
-  .section_profile_work {
-    font-family: var(--font-mono);
-    font-size: 35px;
-    font-weight: 520;
-    transform: translateY(100%); /* Ensure it starts below the hidden wall */
-    animation: slideUp 1s ease-in-out forwards; /* Slide up animation */
-    animation-delay: 2s; /* Start after "Siva Prasad" finishes */
-    visibility: hidden; /* Initially hide the text */
+}
+
+.hidden_wall_work {
+  height: 40px; 
+  overflow: hidden;
+}
+
+
+.section_profile_work {
+  font-family: var(--font-mono);
+  font-size: 35px;
+  font-weight: 520;
+  transform: translateY(100%); /* Ensure it starts below the hidden wall */
+  animation: slideUpWork 1s ease-in-out forwards; 
+  animation-delay: 2s;
+  display: inline-block;
+}
+
+/* Keyframes for sliding up animation for section_profile_work */
+@keyframes slideUpWork {
+  from {
+      transform: translateY(100%); /* Start below */
   }
-  
-  .section_profile_work[style*="animation-delay"] {
-    visibility: visible; /* Make visible only when the animation starts */
+  to {
+      transform: translateY(0); /* End at original position */
   }
-  
+}
