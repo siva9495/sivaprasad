@@ -6,13 +6,27 @@ export const SectionProfile = () => {
     <div className="sectionProfile">
       <div className="hidden_wall">
         <div className="section_profile_name">
-          <span className="name_developer">Siva Prasad</span>
+          {"Siva Prasad".split("").map((char, index) => (
+            <span
+              key={index}
+              className={`name_letter ${char === " " ? "space" : ""}`}
+              style={{ animationDelay: `${index * 0.2}s` }}
+            >
+              {char}
+            </span>
+          ))}
         </div>
       </div>
-      <div className="section_profile_work">
-        <span className="develope_work">Full-Stack Developer</span>
+      <div className="hidden_wall">
+        <div
+          className="section_profile_work develope_work"
+          style={{ animationDelay: `2s` }} /* Delay to start after "Siva Prasad" */
+        >
+          Full-Stack Developer
+        </div>
       </div>
     </div>
   );
 };
+
 export default SectionProfile;
