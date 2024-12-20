@@ -56,7 +56,8 @@ const SectionSkills = () => {
             </div>
             <div className='ss_personalskills_body'>
               <div className='ss_personalskills_body_context'>
-                
+                <div className='ss_ps_context_01'></div>
+                <div className='ss_ps-context-02'></div>
               </div>
             </div>
             <div className='ss_skills_text'>
