@@ -31,7 +31,7 @@ const SectionSkills = () => {
         const move = ((scrollPercentage * maxMove) / 100) - 40;
         textElement.style.transform = `translateX(${move}%)`;
   
-        const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change
+        const opacity = Math.min(1, (scrollPercentage * 2) / 100);
         textElement.style.opacity = opacity;
       }
     }, [scrollPercentage]);  
@@ -39,11 +39,11 @@ const SectionSkills = () => {
     useEffect(() => {
         const textElement = textRefRev.current;
         if (textElement) {
-          const maxMove = 100; // Adjust this value for desired maximum movement
+          const maxMove = 100;
           const move = ((scrollPercentage * maxMove) / 100) - 35;
           textElement.style.transform = `translateX(${-move}%)`;
     
-          const opacity = Math.min(1, (scrollPercentage * 2) / 100); // Adjust the multiplier for opacity change
+          const opacity = Math.min(1, (scrollPercentage * 2) / 100);
           textElement.style.opacity = opacity;
         }
       }, [scrollPercentage]);
@@ -54,7 +54,9 @@ const SectionSkills = () => {
             <div className='ss_personal_text'>
                 <span className='ss_personal_text_span' ref={textRefRev}>TECHNICAL</span>
             </div>
-            <div className='ss_personalskills_body'></div>
+            <div className='ss_personalskills_body'>
+              
+            </div>
             <div className='ss_skills_text'>
                 <span className='ss_skills_text_span' ref={textRef}>SKILLS</span>
             </div>

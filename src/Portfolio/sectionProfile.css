@@ -26,16 +26,15 @@
 }
 
 .name_letter.space {
-  width: 40px; /* Add spacing between words */
+  width: 30px; /* Add spacing between words */
 }
 
-/* Keyframes for sliding up animation */
 @keyframes slideUp {
   from {
-      transform: translateY(100%); /* Start below */
+      transform: translateY(100%);
   }
   to {
-      transform: translateY(0); /* End at original position */
+      transform: translateY(0);
   }
 }
 
