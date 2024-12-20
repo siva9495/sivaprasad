@@ -69,8 +69,14 @@ const SectionSkills = () => {
                   </div>
                 </div>
                 <div className='ss_ps_context_02'>
-                  <div className='ps_context02_inner01'></div>
-                  <div className='ps_context02_inner02'></div>
+                  <div className='ps_context02_inner01'>
+                    <span id='ps_c02i01_s01'>Firebase</span>
+                    <span id='ps_c02i01_s02'>SQL</span>
+                    <span id='ps_c02i01_s03'>MongoDB</span>
+                  </div>
+                  <div className='ps_context02_inner02'>
+                  
+                  </div>
                 </div>
               </div>
             </div>
