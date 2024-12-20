@@ -75,7 +75,9 @@ const SectionSkills = () => {
                     <span id='ps_c02i01_s03'>MongoDB</span>
                   </div>
                   <div className='ps_context02_inner02'>
-                  
+                    <span id='ps_c02i02_s01'>Git</span>
+                    <span id='ps_c02i02_s02'>Android Studio</span>
+                    <span id='ps_c02i02_s03'>Visual Studio</span>
                   </div>
                 </div>
               </div>
