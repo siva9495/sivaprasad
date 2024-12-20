@@ -46,17 +46,42 @@
 .ss_ps_context_01{
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
     background-color: green;
+}
+
+.ps_context01_inner01{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.ps_context01_inner02{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
 }
 
 .ss_ps_context_02{
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
     background-color: blue;
 }
 
+.ps_context02_inner01{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
 
-
+.ps_context02_inner02{
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
 
 .ss_skills_text{
     height: 20%;
