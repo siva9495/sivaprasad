@@ -58,9 +58,15 @@ const SectionSkills = () => {
               <div className='ss_personalskills_body_context'>
                 <div className='ss_ps_context_01'>
                   <div className='ps_context01_inner01'>
-
+                    <span id='ps_c01i01_s01'>Java</span>
+                    <span id='ps_c01i01_s02'>Javascript</span>
+                    <span id='ps_c01i01_s03'>Express.js</span>
                   </div>
-                  <div className='ps_context01_inner02'></div>
+                  <div className='ps_context01_inner02'>
+                    <span id='ps_c01i02_s01'>React</span>
+                    <span id='ps_c01i02_s02'>HTML & CSS</span>
+                    <span id='ps_c01i02_s03'>XML Layout Design</span>
+                  </div>
                 </div>
                 <div className='ss_ps_context_02'>
                   <div className='ps_context02_inner01'></div>
