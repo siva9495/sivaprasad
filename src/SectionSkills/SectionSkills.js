@@ -62,7 +62,10 @@ const SectionSkills = () => {
                   </div>
                   <div className='ps_context01_inner02'></div>
                 </div>
-                <div className='ss_ps-context-02'></div>
+                <div className='ss_ps_context_02'>
+                  <div className='ps_context02_inner01'></div>
+                  <div className='ps_context02_inner02'></div>
+                </div>
               </div>
             </div>
             <div className='ss_skills_text'>
