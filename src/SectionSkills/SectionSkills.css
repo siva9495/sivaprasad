@@ -32,7 +32,7 @@
     height: 60%;
     width: 100%;
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .ss_personalskills_body_context{
@@ -40,7 +40,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .ss_ps_context_01{
@@ -48,7 +48,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .ps_context01_inner01{
@@ -56,9 +56,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.ps_context01_inner01 span {
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-mono);
 }
 
 .ps_context01_inner02{
