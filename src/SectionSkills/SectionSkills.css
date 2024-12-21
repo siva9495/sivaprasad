@@ -90,13 +90,24 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .ps_context02_inner01{
     height: 50%;
     width: 100%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.ps_context02_inner01 span {
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-mono);
 }
 
 .ps_context02_inner02{
