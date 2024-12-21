@@ -113,7 +113,18 @@
 .ps_context02_inner02{
     height: 50%;
     width: 100%;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.ps_context02_inner02 span {
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-mono);
 }
 
 .ss_skills_text{
